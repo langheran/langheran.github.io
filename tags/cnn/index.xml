@@ -17,7 +17,7 @@
       <pubDate>Thu, 17 Jan 2019 12:45:30 -0600</pubDate>
       
       <guid>https://langheran.github.io/post/understanding-dlibs-neural-networks/</guid>
-      <description></description>
+      <description>Dlib C++ library contains many machine learning algorithms: Deep Leaning, SMO-SVM, Multiclass SVM, Structural SVM, Online SVM, Semidefinite Metric Learning, clusterinf algorithms, RBF nets and MLP.</description>
     </item>
     
   </channel>
