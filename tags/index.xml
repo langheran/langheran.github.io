@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Langheran&#39;s Code</title>
+    <title>Tags on Langheran&#39;s Coding Adventures</title>
     <link>https://langheran.github.io/tags/</link>
-    <description>Recent content in Tags on Langheran&#39;s Code</description>
+    <description>Recent content in Tags on Langheran&#39;s Coding Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jan 2019 12:45:30 -0600</lastBuildDate>
     
 	<atom:link href="https://langheran.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cnn</title>
+      <link>https://langheran.github.io/tags/cnn/</link>
+      <pubDate>Thu, 17 Jan 2019 12:45:30 -0600</pubDate>
+      
+      <guid>https://langheran.github.io/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dlib</title>
+      <link>https://langheran.github.io/tags/dlib/</link>
+      <pubDate>Thu, 17 Jan 2019 12:45:30 -0600</pubDate>
+      
+      <guid>https://langheran.github.io/tags/dlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Network</title>
+      <link>https://langheran.github.io/tags/neural-network/</link>
+      <pubDate>Thu, 17 Jan 2019 12:45:30 -0600</pubDate>
+      
+      <guid>https://langheran.github.io/tags/neural-network/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
