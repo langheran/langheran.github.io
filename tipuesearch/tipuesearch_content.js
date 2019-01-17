@@ -1,0 +1,1 @@
+var tipuesearch = {"pages": [{"url": "https://langheran.github.io/post/understanding-dlibs-neural-networks/", "text": "", "tags": "", "title": "Understanding Dlib's Neural Networks - Langheran's Code"}]};
