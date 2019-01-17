@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Langheran&#39;s Code on Langheran&#39;s Code </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://langheran.github.io/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 09 Nov 2014 13:49:44 &#43;0400</updated>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://langheran.github.io/contact/</link>
+      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
+      
+      <guid>https://langheran.github.io/contact/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://langheran.github.io/search/</link>
+      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
+      
+      <guid>https://langheran.github.io/search/</guid>
+      <description>      $(document).ready(function() { $(&#39;#tipue_search_input&#39;).tipuesearch({ &#39;mode&#39; : &#39;json&#39;, &#39;show&#39;: 10, &#39;newWindow&#39;: true, &#39;wholeWords&#39;: false }); });     </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://langheran.github.io/about/</link>
+      <pubDate>Sat, 08 Nov 2014 16:42:18 &#43;0400</pubDate>
+      
+      <guid>https://langheran.github.io/about/</guid>
+      <description>Few words about project.</description>
+    </item>
+    
+  </channel>
+</rss>
+
