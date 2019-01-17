@@ -17,7 +17,8 @@
       <pubDate>Thu, 17 Jan 2019 12:45:30 -0600</pubDate>
       
       <guid>https://langheran.github.io/post/understanding-dlibs-neural-networks/</guid>
-      <description>Dlib C++ library contains many machine learning algorithms: Deep Leaning, SMO-SVM, Multiclass SVM, Structural SVM, Online SVM, Semidefinite Metric Learning, clusterinf algorithms, RBF nets and MLP.</description>
+      <description>Dlib C++ library contains many machine learning algorithms: Deep Leaning, SMO-SVM, Multiclass SVM, Structural SVM, Online SVM, Semidefinite Metric Learning, clusterinf algorithms, RBF nets and MLP’s. In this review we’ll specifically focus on the deep learning side. First, we’ll show you how to configure the tran.h file and tailor the net object to your needs. Then, we’ll see how to configure the hyperparameters on the .
+Network ArchitectureThe library provides two introductory files for deep learning:</description>
     </item>
     
   </channel>
