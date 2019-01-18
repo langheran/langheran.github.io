@@ -21,6 +21,7 @@
 
   <link rel="stylesheet" type="text/css" href="https://langheran.github.io//css/combined-min.css">
   <link rel="stylesheet" type="text/css" href="https://langheran.github.io//tipuesearch/tipuesearch.css">
+  <link rel="stylesheet" href="https://langheran.github.io//css/highlight/styles/github.css" rel="stylesheet" id="theme-stylesheet">
 
 </head>
 <body class="">
@@ -67,6 +68,19 @@
 <li><a href="http://dlib.net/dnn_introduction2_ex.cpp.html">dnn_introduction2_ex.cpp</a></li>
 </ul>
 </div>
+<div id="hyperparameters" class="section level2">
+<h2>Hyperparameters</h2>
+<p>The hyperparameters for the SGD are set in the net initialization.</p>
+<pre class="cpp"><code class="hljs"><span class="hljs-built_in">net_type</span> net;
+<span class="hljs-built_in">dnn_trainer</span> &lt;<span class="hljs-built_in">net_type</span>&gt; trainer(net, sgd(<b>weight_decay</b>, <b>momentum</b>));
+</code></pre>
+<pre class="cpp"><code class="hljs">trainer.set_<b>learning_rate</b>(initial_learning_rate);
+trainer.set_<b>learning_rate_shrink_factor</b>(learning_rate_shrink_factor);
+trainer.set_<b>min_learning_rate</b>(min_learning_rate);
+trainer.set_<b>iterations_without_progress</b>_threshold(iterations_without_progress_threshold);
+trainer.set_<b>test_iterations_without_progress</b>_threshold(test_iterations_without_progress_threshold);
+</code></pre>
+</div>
 
       </article>
 
@@ -76,10 +90,10 @@
             <a href="https://langheran.github.io//tags/dlib">dlib</a>
         
             ,&nbsp;
-            <a href="https://langheran.github.io//tags/CNN">CNN</a>
+            <a href="https://langheran.github.io//tags/cnn">cnn</a>
         
             ,&nbsp;
-            <a href="https://langheran.github.io//tags/Neural%20Network">Neural Network</a>
+            <a href="https://langheran.github.io//tags/neural-network">neural-network</a>
         
       </p>
 
