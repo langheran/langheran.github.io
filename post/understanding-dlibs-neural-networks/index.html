@@ -67,19 +67,23 @@
 <li><a href="http://dlib.net/dnn_introduction_ex.cpp.html">dnn_introduction_ex.cpp</a></li>
 <li><a href="http://dlib.net/dnn_introduction2_ex.cpp.html">dnn_introduction2_ex.cpp</a></li>
 </ul>
+<p>To define a net .</p>
+<p>In particular we will use: .</p>
 </div>
 <div id="hyperparameters" class="section level2">
 <h2>Hyperparameters</h2>
 <p>First, hyperparameters for the SGD are set in the net initialization.</p>
-<pre class="cpp"><code class="hljs"><span class="hljs-built_in">net_type</span> net;
-<span class="hljs-built_in">dnn_trainer</span> &lt;<span class="hljs-built_in">net_type</span>&gt; trainer(net, sgd(<b>weight_decay</b>, <b>momentum</b>));
+<pre class="cpp"><code class="hljs">double weight_decay=0.0001;
+double momentum=0.9;
+<span class="hljs-built_in">net_type</span> net;
+<span class="hljs-built_in">dnn_trainer</span> &lt;<span class="hljs-built_in">net_type</span>&gt; <span style="color:#BB00BB">trainer</span>(net, sgd(<b>weight_decay</b>, <b>momentum</b>));
 </code></pre>
 <p>Then we set the remaining parameters for the SGD:</p>
-<pre class="cpp"><code class="hljs">trainer.set_<b>learning_rate</b>(initial_learning_rate);
-trainer.set_<b>learning_rate_shrink_factor</b>(learning_rate_shrink_factor);
-trainer.set_<b>min_learning_rate</b>(min_learning_rate);
-trainer.set_<b>iterations_without_progress</b>_threshold(iterations_without_progress_threshold);
-trainer.set_<b>test_iterations_without_progress</b>_threshold(test_iterations_without_progress_threshold);
+<pre class="cpp"><code class="hljs">trainer.<span style="color:#BB00BB">set_<b>learning_rate</b></span>(0.1);
+trainer.<span style="color:#BB00BB">set_<b>learning_rate_shrink_factor</b></span>(0.1);
+trainer.<span style="color:#BB00BB">set_<b>min_learning_rate</b></span>(0.00001);
+trainer.<span style="color:#BB00BB">set_<b>iterations_without_progress</b>_threshold</span>(5000);
+trainer.<span style="color:#BB00BB">set_<b>test_iterations_without_progress</b>_threshold</span>(500);
 </code></pre>
 </div>
 
